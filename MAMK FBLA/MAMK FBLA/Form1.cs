@@ -11,6 +11,7 @@ namespace MAMK_FBLA
 {
     public partial class Form1 : Form
     {
+        AboutBox1 about = new AboutBox1();
         public Form1()
         {
             InitializeComponent();
@@ -33,9 +34,9 @@ namespace MAMK_FBLA
 
         private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            AboutBox1 box = new AboutBox1();
+            
 
-            box.Show();
+            about.Show();
         }
 
         private void exitToolStripMenuItem_Click(object sender, EventArgs e)
@@ -51,6 +52,22 @@ namespace MAMK_FBLA
         private void button7_Click(object sender, EventArgs e)
         {
             Close();
+        }
+
+        private void notifyIcon1_MouseDoubleClick(object sender, MouseEventArgs e)
+        {
+            Form1 form = new Form1();
+            form.Show();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            new Form2().Show();
         }
     }
 }

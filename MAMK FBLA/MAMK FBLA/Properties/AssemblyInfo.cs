@@ -6,10 +6,10 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("MAMK FBLA")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("This program is made by the MHS computer science club in collaboration with the MHS FBLA club")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("MAMK FBLA")]
+[assembly: AssemblyCompany("MUFSD Computer Science Club and FBLA")]
+[assembly: AssemblyProduct("FBLA Desktop Apps")]
 [assembly: AssemblyCopyright("Copyright ©  2014")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
