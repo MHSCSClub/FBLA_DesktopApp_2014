@@ -36,7 +36,7 @@ namespace MAMK_FBLA
         {
             
 
-            about.Show();
+            about.ShowDialog();
         }
 
         private void exitToolStripMenuItem_Click(object sender, EventArgs e)
@@ -67,7 +67,12 @@ namespace MAMK_FBLA
 
         private void button1_Click(object sender, EventArgs e)
         {
-            new Form2().Show();
+            new Form2().ShowDialog();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            new Form3().ShowDialog();
         }
     }
 }
